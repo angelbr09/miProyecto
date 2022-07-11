@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { InicioModule } from './modules/inicio/inicio.module';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { SharedModule } from './shared/shared.module';
 import {MatFormFieldModule} from "@angular/material/form-field";
 
 @NgModule({
@@ -19,8 +18,8 @@ import {MatFormFieldModule} from "@angular/material/form-field";
     CoreModule,
     InicioModule,
     NoopAnimationsModule,
-    SharedModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+
 
   ],
   providers: [],
