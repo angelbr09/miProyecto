@@ -1,0 +1,92 @@
+.sectionHeader{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #333;
+  font-size: 20px;
+  color: #FFFFFF;
+  .containerHeader{
+    //background-color: green;
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .logoText{
+      display: flex;
+      flex-direction: row;
+      width: 100px;
+      img{
+        width: 70%;
+      }
+      .text{
+        width: 100%;
+        h1{
+          width: 100px;
+          margin-top: 15%;
+          margin-left: 15%;
+        }
+      }
+    }
+    .busquedaDistrito{
+        input{
+          width: 140px;
+          height: 9px;
+          border-radius: 10px;
+          border: 1px solid;
+          margin-left: 15%;
+          padding: 10%;
+        }
+    }
+    .pasionSelect{
+        select{
+          width: 130px;
+          height: 40px;
+          padding: 8%;
+          border-radius: 10px;
+          border: 1px solid;
+        }
+    }
+    .escogeFecha{
+        input{
+          width: 140px;
+          height: 22px;
+          padding: 7%;
+          border-radius: 10px;
+          border: 1px solid;
+        }
+    }
+    .escogeHora{
+        select{
+          width: 130px;
+          height: 40px;
+          padding: 8%;
+          border-radius: 10px;
+          border: 1px solid;
+        }
+    }
+    .buscarSitio{
+        button{
+          width: 140px;
+          height: 35px;
+          border-radius: 10px;
+          border: 1px solid;
+          cursor: pointer;
+        }
+    }
+    .botonesInicio{
+      display: flex;
+      flex-direction: row;
+      gap:0 30px;
+      button{
+        width: 140px;
+        height: 35px;
+        border-radius: 10px;
+        border: 1px solid;
+        cursor: pointer;
+       }
+    }
+  }
+}
